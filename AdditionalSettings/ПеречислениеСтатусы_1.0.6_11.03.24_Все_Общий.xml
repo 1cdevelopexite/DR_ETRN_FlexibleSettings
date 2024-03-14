@@ -1,0 +1,90 @@
+﻿<ValueTable xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ValueTable">
+	<column>
+		<Name xsi:type="xs:string">Значение</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Синоним</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Комментарий</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
+	<row>
+		<Value>Подготовлен</Value>
+		<Value>Подготовлен</Value>
+		<Value>Данные в документе заполнены корректно. Можно подписывать</Value>
+	</row>
+	<row>
+		<Value>Ввод данных</Value>
+		<Value>Ввод данных</Value>
+		<Value>Не заполнены все обязательные поля. Не получится подписать</Value>
+	</row>
+	<row>
+		<Value>Отправлен</Value>
+		<Value>Отправлен</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>Подписан</Value>
+		<Value>Подписан</Value>
+		<Value>Сформирована подпись (bin). Данные помещены в архив</Value>
+	</row>
+	<row>
+		<Value>Получен</Value>
+		<Value>Получен</Value>
+		<Value>Загружен в базу 1С, но не обработан</Value>
+	</row>
+	<row>
+		<Value>Обработан</Value>
+		<Value>Обработан</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>Принят ГИС</Value>
+		<Value>Принят ГИС</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>В очереди на обработку ГИС</Value>
+		<Value>В очереди на обработку ГИС</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>Отклонен ГИС</Value>
+		<Value>Отклонен ГИС</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>Принят Docrobot</Value>
+		<Value>Принят Docrobot</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>Отклонен Docrobot</Value>
+		<Value>Отклонен Docrobot</Value>
+		<Value/>
+	</row>
+</ValueTable>
