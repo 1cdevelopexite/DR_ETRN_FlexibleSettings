@@ -445,21 +445,21 @@
 					<Value xsi:type="xs:string">Возврат (Документ.СтатПодп = "2")</Value>
 					<Value xsi:type="ValueListType">
 						<valueType/>
-						<lastId xsi:type="xs:decimal">16</lastId>
+						<lastId xsi:type="xs:decimal">23</lastId>
 						<item>
 							<value xsi:type="xs:string">НомДовер</value>
 							<presentation>Документ.НомерДовер</presentation>
-							<id xsi:type="xs:decimal">14</id>
+							<id xsi:type="xs:decimal">21</id>
 						</item>
 						<item>
 							<value xsi:type="xs:string">ДатаВыдДовер</value>
 							<presentation>Документ.ДатаДовер</presentation>
-							<id xsi:type="xs:decimal">15</id>
+							<id xsi:type="xs:decimal">22</id>
 						</item>
 						<item>
 							<value xsi:type="xs:string">СпособПредставл</value>
 							<presentation>Документ.СпособПредставл</presentation>
-							<id xsi:type="xs:decimal">16</id>
+							<id xsi:type="xs:decimal">23</id>
 						</item>
 					</Value>
 					<Value xsi:type="xs:string"/>
@@ -492,6 +492,7 @@
 					<item>
 						<value xsi:type="xs:string">СтатПодп</value>
 						<presentation>Документ.СтатПодп</presentation>
+						<checkState>1</checkState>
 						<id xsi:type="xs:decimal">15</id>
 					</item>
 					<item>
@@ -559,7 +560,7 @@
 		</row>
 		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Исходящий UVUTOCH (Уведомление об уточнении)</Value>
-		<Value xsi:type="xs:string">Документ</Value>
+		<Value xsi:type="xs:string">ДокументЭТРН</Value>
 		<Value xsi:type="xs:string">Файл</Value>
 		<Value xsi:type="Structure">
 			<Property name="Ссылка">
@@ -685,7 +686,7 @@
                |		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_DRДокументУчастники КАК ВТ_DRДокументУчастники
                |			ЛЕВОЕ СОЕДИНЕНИЕ DR_УчастникиОбмена КАК DR_УчастникиОбмена
                |			ПО (ВТ_DRДокументУчастники.Организация = DR_УчастникиОбмена.Ссылка
-               |					И DR_УчастникиОбмена.Роль = ""Грузоперевозчик"")
+               |					И DR_УчастникиОбмена.Роль = ""Грузоотправитель"")
                |		ПО (DR_Документы.Ссылка = ВТ_DRДокументУчастники.DR_Документ)
                |ГДЕ
                |	DR_Документы.Ссылка В (&amp;Документ)";
@@ -727,8 +728,8 @@
  Результат.Колонки.Добавить("ФамилияПодп"			, Новый ОписаниеТипов("Строка"));
  Результат.Колонки.Добавить("ИмяПодп"				, Новый ОписаниеТипов("Строка"));
  Результат.Колонки.Добавить("ОтчествоПодп"			, Новый ОписаниеТипов("Строка"));
- Результат.Колонки.Добавить("СпособПредставл"		, Новый ОписаниеТипов("Строка")); 
- Результат.Колонки.Добавить("ИдСистХран"			, Новый ОписаниеТипов("Строка")); 
+ Результат.Колонки.Добавить("СпособПредставл"		, Новый ОписаниеТипов("Строка"));
+ Результат.Колонки.Добавить("ИдСистХран"			, Новый ОписаниеТипов("Строка"));  
  
  Результат.Колонки.Добавить("ДатаДовер");
  Результат.Колонки.Добавить("НомерДовер");
@@ -801,7 +802,7 @@
 
 		Если СтрокаПоМЧД.Сертификат = Null ИЛИ СтрокаПоМЧД.ТипСертификата = 2 И (НЕ ЗначениеЗаполнено(СтрокаПоМЧД.СтрокаМЧД) ИЛИ НЕ СтрокаПоМЧД.МЧД_Актуальна) Тогда  
 	        ТекстЛогаСобытий = "Проверьте наличие доверенности для пользователя по организации " + Строка.Организация;
-	        //ЗаписатьЛогСобытий(ЛогСобытий, ТекстЛогаСобы&lt;&gt;ий);
+	        //ЗаписатьЛогСобытий(ЛогСобытий, ТекстЛогаСобытий);
 			
 			//Результат.Удалить(Строка);
 			
@@ -839,7 +840,7 @@
 		Строка.СведСистОтм 	= СтрокаПоМЧД.МЧДСведенияОбИС;
 		
 	Иначе           
-		ДанныеПоОрганизации = DR_GLN_Прочитать(Строка.Организация, "Грузоперевозчик");
+		ДанныеПоОрганизации = DR_GLN_Прочитать(Строка.Организация, "Грузоотправитель");
 		Сертификат 						= ДанныеПоОрганизации.Сертификат;
 		Строка.Сертификат 				= Сертификат; 
 		
@@ -896,7 +897,7 @@
 		<Value xsi:type="xs:decimal">0</Value>
 		<Value xsi:type="xs:decimal">0</Value>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Отменить ЭТрН</Value>
+		<Value xsi:type="xs:string">Отклонение стоимости перевозки</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
 			<lastId xsi:type="xs:decimal">5</lastId>
@@ -906,7 +907,6 @@
 			</item>
 			<item>
 				<value xsi:type="xs:string">Грузоперевозчик</value>
-				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">1</id>
 			</item>
 			<item>
@@ -915,16 +915,17 @@
 			</item>
 			<item>
 				<value xsi:type="xs:string">Грузоотправитель</value>
+				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">3</id>
 			</item>
 			<item>
 				<value xsi:type="xs:string">Синоним</value>
-				<presentation>Отменить ЭТрН</presentation>
+				<presentation>Отклонение стоимости перевозки</presentation>
 				<id xsi:type="xs:decimal">4</id>
 			</item>
 			<item>
 				<value xsi:type="xs:string">ИмяКнопки</value>
-				<presentation>DP_UVUTOCH_TK_Out</presentation>
+				<presentation>DP_UVUTOCH_GO_Out</presentation>
 				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">5</id>
 			</item>
