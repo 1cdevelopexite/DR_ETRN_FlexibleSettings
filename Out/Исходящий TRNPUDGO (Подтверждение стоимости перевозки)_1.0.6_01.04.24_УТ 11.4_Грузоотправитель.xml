@@ -946,7 +946,6 @@
 					<item>
 						<value xsi:type="xs:string">СтатПодп</value>
 						<presentation>Документ.СтатПодп</presentation>
-						<checkState>1</checkState>
 						<id xsi:type="xs:decimal">15</id>
 					</item>
 					<item>
