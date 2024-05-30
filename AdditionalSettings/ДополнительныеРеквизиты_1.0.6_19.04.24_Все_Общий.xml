@@ -564,8 +564,8 @@
 		<Value>ИдСР</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьСпецУсловия</Value>
-		<Value>Да</Value>
+		<Value>ЕстьСпецУсловия|НомСР|ДатаСР|СрокСР</Value>
+		<Value>Да||01.01.0001 0:00:00|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
