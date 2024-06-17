@@ -1626,7 +1626,7 @@
 					</row>
 					<row>
 						<row>
-							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
@@ -1844,11 +1844,16 @@
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">1</lastId>
+							<lastId xsi:type="xs:decimal">5</lastId>
 							<item>
 								<value xsi:type="xs:string">АдрКоммент</value>
 								<presentation>Документ.КомментарииКАдресу</presentation>
-								<id xsi:type="xs:decimal">1</id>
+								<id xsi:type="xs:decimal">4</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ГЛН</value>
+								<presentation>Документ.GLNМестаДоставки</presentation>
+								<id xsi:type="xs:decimal">5</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string"/>
@@ -3291,7 +3296,65 @@
 						</Value>
 					</row>
 					<row>
-						<Value xsi:type="xs:boolean">false</Value>
+						<row>
+							<row>
+								<Value xsi:type="xs:boolean">true</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string">ИННЮЛ</Value>
+								<Value xsi:type="xs:string">Документ.ИННЮЛГО</Value>
+								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:nil="true"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="ValueTable"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+							</row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">ИдРекСост</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
@@ -3821,7 +3884,7 @@
 									<id xsi:type="xs:decimal">1</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>

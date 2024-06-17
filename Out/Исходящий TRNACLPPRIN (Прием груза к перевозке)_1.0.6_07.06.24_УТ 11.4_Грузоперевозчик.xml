@@ -382,7 +382,36 @@
 									<lastId xsi:type="xs:decimal">-1</lastId>
 								</Value>
 							</row>
-							<Value xsi:type="xs:boolean">false</Value>
+							<row>
+								<Value xsi:type="xs:boolean">true</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string">ИННЮЛ</Value>
+								<Value xsi:nil="true"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="ValueTable"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+							</row>
+							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">ИдРекСост</Value>
@@ -410,7 +439,7 @@
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
 						</row>
-						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">СвАкт</Value>
@@ -472,7 +501,7 @@
 						</Value>
 					</row>
 					<row>
-						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">РазмШтр</Value>
@@ -602,7 +631,7 @@
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
 					</row>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ОтметПрвПрием</Value>
@@ -1037,7 +1066,7 @@
 				<lastId xsi:type="xs:decimal">-1</lastId>
 			</Value>
 		</row>
-		<Value xsi:type="xs:boolean">false</Value>
+		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Исходящий TRNACLPPRIN (Прием груза к перевозке)</Value>
 		<Value xsi:type="xs:string">Документ</Value>
 		<Value xsi:type="xs:string">Файл</Value>
