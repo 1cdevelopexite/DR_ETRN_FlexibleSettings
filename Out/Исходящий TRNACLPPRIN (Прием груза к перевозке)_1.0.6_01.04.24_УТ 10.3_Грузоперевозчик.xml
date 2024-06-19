@@ -382,7 +382,36 @@
 									<lastId xsi:type="xs:decimal">-1</lastId>
 								</Value>
 							</row>
-							<Value xsi:type="xs:boolean">false</Value>
+							<row>
+								<Value xsi:type="xs:boolean">true</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string">ИННЮЛ</Value>
+								<Value xsi:type="xs:string">Документ.ИННГПер</Value>
+								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:nil="true"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="ValueTable"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+							</row>
+							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
@@ -410,49 +439,104 @@
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
 						</row>
-						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">СвАкт</Value>
-						<Value xsi:type="xs:string"/>
+						<Value xsi:type="xs:string">Запрос = Новый Запрос;  
+Запрос.Текст ="ВЫБРАТЬ
+              |	DR_ДокументыДополнительныеРеквизиты.Ссылка КАК Ссылка,
+              |	DR_ДокументыДополнительныеРеквизиты.Реквизит КАК Реквизит,
+              |	DR_ДокументыДополнительныеРеквизиты.Значение КАК Значение,
+              |	DR_ДокументыДополнительныеРеквизиты.ХранилищеЗначения КАК ХранилищеЗначения
+              |ИЗ
+              |	Документ.DR_Документы.ДополнительныеРеквизиты КАК DR_ДокументыДополнительныеРеквизиты
+              |ГДЕ
+              |	DR_ДокументыДополнительныеРеквизиты.Ссылка В (&amp;Документ)
+              |	И DR_ДокументыДополнительныеРеквизиты.Реквизит = ""Таблицы""";
+
+Запрос.УстановитьПараметр("Документ", Источник);
+РезультатЗапроса = Запрос.Выполнить(); 
+РезультатЗпр = РезультатЗапроса.Выгрузить();   
+
+Результат = Новый ТаблицаЗначений;
+	
+Результат.Колонки.Добавить("ДатаДок"	, Новый ОписаниеТипов("Дата")); 
+Результат.Колонки.Добавить("ДатаДокСтр"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("НаимДок"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("НомерДок"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("ИдДок"		, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("ДопСведДок"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("Ссылка"		, Новый ОписаниеТипов("ДокументСсылка.DR_Документы")); 
+
+ПустойUTC = "+00:00"; 
+
+Для Каждого Строка из РезультатЗпр Цикл  
+	
+	СтруктураТЧ = Строка.ХранилищеЗначения.Получить();    	                                                                                                                                                                                  
+		                                                                                          
+	Для Каждого МассивДанныхТЧ Из СтруктураТЧ Цикл 
+				
+		Если МассивДанныхТЧ.Ключ = "СведенияИныхАктов" Тогда  
+
+			Если МассивДанныхТЧ.Значение.Количество() Тогда
+										
+				Для Каждого СтруктураТЧ Из МассивДанныхТЧ.Значение Цикл  
+
+					НоваяСтрока = Результат.Добавить(); 
+					ЗаполнитьЗначенияСвойств(НоваяСтрока, СтруктураТЧ);
+					
+					НоваяСтрока.ДатаДокСтр = Строка(Формат(НоваяСтрока.ДатаДок,"ДФ=dd.MM.yyyy"));
+					НоваяСтрока.Ссылка 		= Строка.Ссылка;
+
+				КонецЦикла; 
+			КонецЕсли;
+		КонецЕсли;
+		
+	КонецЦикла;
+	
+КонецЦикла;
+
+Возврат Результат;</Value>
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">4</lastId>
+							<lastId xsi:type="xs:decimal">9</lastId>
 							<item>
 								<value xsi:type="xs:string">НаимДок</value>
-								<id xsi:type="xs:decimal">0</id>
+								<presentation>СвАкт.НаимДок</presentation>
+								<id xsi:type="xs:decimal">5</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">НомерДок</value>
-								<id xsi:type="xs:decimal">1</id>
+								<presentation>СвАкт.НомерДок</presentation>
+								<id xsi:type="xs:decimal">6</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДатаДок</value>
-								<id xsi:type="xs:decimal">2</id>
+								<presentation>СвАкт.ДатаДокСтр</presentation>
+								<id xsi:type="xs:decimal">7</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИдДок</value>
-								<id xsi:type="xs:decimal">3</id>
+								<presentation>СвАкт.ИдДок</presentation>
+								<id xsi:type="xs:decimal">8</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДопСведДок</value>
-								<id xsi:type="xs:decimal">4</id>
+								<presentation>СвАкт.ДопСведДок</presentation>
+								<id xsi:type="xs:decimal">9</id>
 							</item>
 						</Value>
 						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">1</lastId>
+							<lastId xsi:type="xs:decimal">2</lastId>
 							<item>
-								<value xsi:type="xs:string">Документ.Ссылка</value>
+								<value xsi:type="xs:string">ОтметПрвПрием.Ссылка</value>
 								<presentation>СвАкт.Ссылка</presentation>
-								<id xsi:type="xs:decimal">0</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string"/>
-								<id xsi:type="xs:decimal">1</id>
+								<id xsi:type="xs:decimal">2</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:decimal">0</Value>
@@ -460,10 +544,34 @@
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">0</lastId>
+							<lastId xsi:type="xs:decimal">6</lastId>
 							<item>
-								<value xsi:type="xs:string">НомерПоПорядку</value>
+								<value xsi:type="xs:string">ДатаДок</value>
 								<id xsi:type="xs:decimal">0</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДатаДокСтр</value>
+								<id xsi:type="xs:decimal">1</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">НаимДок</value>
+								<id xsi:type="xs:decimal">2</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">НомерДок</value>
+								<id xsi:type="xs:decimal">3</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ИдДок</value>
+								<id xsi:type="xs:decimal">4</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДопСведДок</value>
+								<id xsi:type="xs:decimal">5</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">Ссылка</value>
+								<id xsi:type="xs:decimal">6</id>
 							</item>
 						</Value>
 						<Value xsi:type="ValueListType">
@@ -472,60 +580,198 @@
 						</Value>
 					</row>
 					<row>
-						<Value xsi:type="xs:boolean">false</Value>
+						<row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">ТехническоеПоле</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">РазмШтр</Value>
-						<Value xsi:type="xs:string"/>
+						<Value xsi:type="xs:string">Запрос = Новый Запрос;  
+Запрос.Текст ="ВЫБРАТЬ
+              |	DR_ДокументыДополнительныеРеквизиты.Ссылка КАК Ссылка,
+              |	DR_ДокументыДополнительныеРеквизиты.Реквизит КАК Реквизит,
+              |	DR_ДокументыДополнительныеРеквизиты.Значение КАК Значение,
+              |	DR_ДокументыДополнительныеРеквизиты.ХранилищеЗначения КАК ХранилищеЗначения
+              |ИЗ
+              |	Документ.DR_Документы.ДополнительныеРеквизиты КАК DR_ДокументыДополнительныеРеквизиты
+              |ГДЕ
+              |	DR_ДокументыДополнительныеРеквизиты.Ссылка В (&amp;Документ)
+              |	И DR_ДокументыДополнительныеРеквизиты.Реквизит = ""Таблицы""";
+
+Запрос.УстановитьПараметр("Документ", Источник);
+РезультатЗапроса = Запрос.Выполнить(); 
+РезультатЗпр = РезультатЗапроса.Выгрузить();   
+
+Результат = Новый ТаблицаЗначений;
+	
+Результат.Колонки.Добавить("ДатаКурсВал"	, Новый ОписаниеТипов("Дата")); 
+Результат.Колонки.Добавить("ДатаКурсВалСтр"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("ФактКолЕдИзм"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("ИтогРазмШтрРФ"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("КодОКВ"			, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("НаимОКВ"		, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("ИтогРазмШтрИн"	, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("КурсВал"		, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("РасчШтр"		, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("Ссылка"			, Новый ОписаниеТипов("ДокументСсылка.DR_Документы")); 
+
+ПустойUTC = "+00:00"; 
+
+Для Каждого Строка из РезультатЗпр Цикл  
+	
+	СтруктураТЧ = Строка.ХранилищеЗначения.Получить();    	                                                                                                                                                                                  
+		                                                                                          
+	Для Каждого МассивДанныхТЧ Из СтруктураТЧ Цикл
+				
+		Если МассивДанныхТЧ.Ключ = "СведенияШтрафов" Тогда
+			Если МассивДанныхТЧ.Значение.Количество() Тогда
+										
+				Для Каждого СтруктураТЧ Из МассивДанныхТЧ.Значение Цикл
+				
+					НоваяСтрока = Результат.Добавить(); 
+					ЗаполнитьЗначенияСвойств(НоваяСтрока, СтруктураТЧ);
+					 
+					НоваяСтрока.ДатаКурсВалСтр = Строка(Формат(НоваяСтрока.ДатаКурсВал,"ДФ=dd.MM.yyyy")); 
+					НоваяСтрока.Ссылка 		= Строка.Ссылка;
+
+				КонецЦикла; 
+			КонецЕсли;
+		КонецЕсли;
+		
+	КонецЦикла;
+	
+КонецЦикла;
+
+Возврат Результат;</Value>
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">7</lastId>
+							<lastId xsi:type="xs:decimal">15</lastId>
 							<item>
 								<value xsi:type="xs:string">ФактКолЕдИзм</value>
-								<id xsi:type="xs:decimal">0</id>
+								<presentation>РазмШтр.ФактКолЕдИзм</presentation>
+								<id xsi:type="xs:decimal">8</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИтогРазмШтрРФ</value>
-								<id xsi:type="xs:decimal">1</id>
+								<presentation>РазмШтр.ИтогРазмШтрРФ</presentation>
+								<id xsi:type="xs:decimal">9</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">КодОКВ</value>
-								<id xsi:type="xs:decimal">2</id>
+								<presentation>РазмШтр.КодОКВ</presentation>
+								<id xsi:type="xs:decimal">10</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">НаимОКВ</value>
-								<id xsi:type="xs:decimal">3</id>
+								<presentation>РазмШтр.НаимОКВ</presentation>
+								<id xsi:type="xs:decimal">11</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИтогРазмШтрИн</value>
-								<id xsi:type="xs:decimal">4</id>
+								<presentation>РазмШтр.ИтогРазмШтрИн</presentation>
+								<id xsi:type="xs:decimal">12</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДатаКурсВал</value>
-								<id xsi:type="xs:decimal">5</id>
+								<presentation>РазмШтр.ДатаКурсВалСтр</presentation>
+								<id xsi:type="xs:decimal">13</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">КурсВал</value>
-								<id xsi:type="xs:decimal">6</id>
+								<presentation>РазмШтр.КурсВал</presentation>
+								<id xsi:type="xs:decimal">14</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">РасчШтр</value>
-								<id xsi:type="xs:decimal">7</id>
+								<presentation>РазмШтр.РасчШтр</presentation>
+								<id xsi:type="xs:decimal">15</id>
 							</item>
 						</Value>
 						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
+							<lastId xsi:type="xs:decimal">0</lastId>
+							<item>
+								<value xsi:type="xs:string">ОтметПрвПрием.Ссылка</value>
+								<presentation>РазмШтр.Ссылка</presentation>
+								<id xsi:type="xs:decimal">0</id>
+							</item>
 						</Value>
 						<Value xsi:type="xs:decimal">0</Value>
 						<Value xsi:type="xs:decimal">0</Value>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
+							<lastId xsi:type="xs:decimal">9</lastId>
+							<item>
+								<value xsi:type="xs:string">ДатаКурсВал</value>
+								<id xsi:type="xs:decimal">0</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДатаКурсВалСтр</value>
+								<id xsi:type="xs:decimal">1</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ФактКолЕдИзм</value>
+								<id xsi:type="xs:decimal">2</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ИтогРазмШтрРФ</value>
+								<id xsi:type="xs:decimal">3</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">КодОКВ</value>
+								<id xsi:type="xs:decimal">4</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">НаимОКВ</value>
+								<id xsi:type="xs:decimal">5</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ИтогРазмШтрИн</value>
+								<id xsi:type="xs:decimal">6</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">КурсВал</value>
+								<id xsi:type="xs:decimal">7</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">РасчШтр</value>
+								<id xsi:type="xs:decimal">8</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">Ссылка</value>
+								<id xsi:type="xs:decimal">9</id>
+							</item>
 						</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
@@ -602,19 +848,22 @@
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
 					</row>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ОтметПрвПрием</Value>
 					<Value xsi:type="xs:string">Запрос = Новый Запрос;  
 Запрос.Текст ="ВЫБРАТЬ
-              |	DR_Документы.ДанныеДокумента КАК ДанныеДокумента,
-              |	DR_Документы.Ссылка КАК Ссылка
+              |	DR_ДокументыДополнительныеРеквизиты.Ссылка КАК Ссылка,
+              |	DR_ДокументыДополнительныеРеквизиты.Реквизит КАК Реквизит,
+              |	DR_ДокументыДополнительныеРеквизиты.Значение КАК Значение,
+              |	DR_ДокументыДополнительныеРеквизиты.ХранилищеЗначения КАК ХранилищеЗначения
               |ИЗ
-              |	Документ.DR_Документы КАК DR_Документы
+              |	Документ.DR_Документы.ДополнительныеРеквизиты КАК DR_ДокументыДополнительныеРеквизиты
               |ГДЕ
-              |	DR_Документы.Ссылка В(&amp;Документ)";
+              |	DR_ДокументыДополнительныеРеквизиты.Ссылка В (&amp;Документ)
+              |	И DR_ДокументыДополнительныеРеквизиты.Реквизит = ""Таблицы""";
 
 Запрос.УстановитьПараметр("Документ", Источник);
 РезультатЗапроса = Запрос.Выполнить(); 
@@ -633,47 +882,27 @@
 
 Для Каждого Строка из РезультатЗпр Цикл  
 	
-	//СтруктураТЧ = Строка.ДанныеДокумента.Получить();
-	СтруктураТЧ = ВернутьЗначениеДопРеквизитаИзДокумента("Таблицы", Строка.Ссылка.ДополнительныеРеквизиты);
-	Если Не СтруктураТЧ = Неопределено Тогда
-		СтруктураТЧ = СтруктураТЧ.Получить();    	                                                                                                                                                                                 
+	СтруктураТЧ = Строка.ХранилищеЗначения.Получить();    	                                                                                                                                                                                  
 		                                                                                          
-		Для Каждого МассивДанныхТЧ Из СтруктураТЧ Цикл
+	Для Каждого МассивДанныхТЧ Из СтруктураТЧ Цикл
+				
+		Если МассивДанныхТЧ.Ключ = "СведенияОбОтметкахПеревозчика" Тогда
+			Если МассивДанныхТЧ.Значение.Количество() Тогда
+										
+				Для Каждого СтруктураТЧ Из МассивДанныхТЧ.Значение Цикл
+					НоваяСтрока = Результат.Добавить(); 
+					ЗаполнитьЗначенияСвойств(НоваяСтрока, СтруктураТЧ);
 					
-			Если МассивДанныхТЧ.Ключ = "СведенияШтрафов" Тогда
-				Если МассивДанныхТЧ.Значение.Количество() Тогда
-											
-					Для Каждого СтруктураТЧ Из МассивДанныхТЧ.Значение Цикл
-						НоваяСтрока = Результат.Добавить(); 
-						ЗаполнитьЗначенияСвойств(НоваяСтрока, СтруктураТЧ);
-						
-						НоваяСтрока.Ссылка 		= Строка.Ссылка;
-						НоваяСтрока.ДатВрОтметСтр = Строка(Формат(НоваяСтрока.ДатВрОтмет,"ДФ=dd.MM.yyyy")) + "T" + Формат(НоваяСтрока.ДатВрОтмет,"ДФ=ЧЧ:мм:сс") + ПустойUTC;
-						НоваяСтрока.НалКоорТочВрОтм = "0"; 
-					КонецЦикла; 
-				КонецЕсли;
+					НоваяСтрока.Ссылка 		= Строка.Ссылка;
+					НоваяСтрока.ДатВрОтметСтр = Строка(Формат(НоваяСтрока.ДатВрОтмет,"ДФ=dd.MM.yyyy")) + "T" + Формат(НоваяСтрока.ДатВрОтмет,"ДФ=ЧЧ:мм:сс") + ПустойUTC;
+					НоваяСтрока.НалКоорТочВрОтм = "0"; 
+				КонецЦикла; 
 			КонецЕсли;
-			
-			Если МассивДанныхТЧ.Ключ = "СведенияИныхАктов" Тогда		
-				Если МассивДанныхТЧ.Значение.Количество() Тогда						
-					Для Каждого СтруктураТЧ Из МассивДанныхТЧ.Значение Цикл
-						НоваяСтрока = Результат.Добавить(); 
-						ЗаполнитьЗначенияСвойств(НоваяСтрока, СтруктураТЧ);
-						
-						НоваяСтрока.Ссылка 		= Строка.Ссылка; 
-						НоваяСтрока.ДатВрОтметСтр = Строка(Формат(НоваяСтрока.ДатВрОтмет,"ДФ=dd.MM.yyyy")) + "T" + Формат(НоваяСтрока.ДатВрОтмет,"ДФ=ЧЧ:мм:сс") + ПустойUTC;
-						НоваяСтрока.НалКоорТочВрОтм = "0";
-					КонецЦикла; 
-				КонецЕсли;
-			КонецЕсли;
-		КонецЦикла; 
+		КонецЕсли;
 		
-	КонецЕсли;
+	КонецЦикла;
 	
 КонецЦикла;
-
-Результат.Свернуть("ДатВрОтметСтр, НалКоорТочВрОтм, ОбстОтмет, ОтмАктВзв, Ссылка");
-
 
 Возврат Результат;</Value>
 					<Value xsi:type="xs:boolean">false</Value>
@@ -716,26 +945,30 @@
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
-						<lastId xsi:type="xs:decimal">4</lastId>
+						<lastId xsi:type="xs:decimal">5</lastId>
 						<item>
-							<value xsi:type="xs:string">ДатВрОтметСтр</value>
+							<value xsi:type="xs:string">ДатВрОтмет</value>
 							<id xsi:type="xs:decimal">0</id>
 						</item>
 						<item>
-							<value xsi:type="xs:string">ОбстОтмет</value>
+							<value xsi:type="xs:string">ДатВрОтметСтр</value>
 							<id xsi:type="xs:decimal">1</id>
 						</item>
 						<item>
-							<value xsi:type="xs:string">ОтмАктВзв</value>
+							<value xsi:type="xs:string">ОбстОтмет</value>
 							<id xsi:type="xs:decimal">2</id>
 						</item>
 						<item>
-							<value xsi:type="xs:string">НалКоорТочВрОтм</value>
+							<value xsi:type="xs:string">ОтмАктВзв</value>
 							<id xsi:type="xs:decimal">3</id>
 						</item>
 						<item>
-							<value xsi:type="xs:string">Ссылка</value>
+							<value xsi:type="xs:string">НалКоорТочВрОтм</value>
 							<id xsi:type="xs:decimal">4</id>
+						</item>
+						<item>
+							<value xsi:type="xs:string">Ссылка</value>
+							<id xsi:type="xs:decimal">5</id>
 						</item>
 					</Value>
 					<Value xsi:type="ValueListType">
@@ -1157,7 +1390,8 @@
 Результат.Колонки.Добавить("ЗамКолМест"				, Новый ОписаниеТипов("Строка")); 
 Результат.Колонки.Добавить("ЗамПогрРаб"				, Новый ОписаниеТипов("Строка")); 
 Результат.Колонки.Добавить("ДатФайлЗак"				, Новый ОписаниеТипов("Строка")); 
-Результат.Колонки.Добавить("ВрФайлЗак"				, Новый ОписаниеТипов("Строка")); 
+Результат.Колонки.Добавить("ВрФайлЗак"				, Новый ОписаниеТипов("Строка"));
+Результат.Колонки.Добавить("ИННГПер"				, Новый ОписаниеТипов("Строка"));
 
 Результат.Колонки.Добавить("СтатПодп"				, Новый ОписаниеТипов("Строка"));
 Результат.Колонки.Добавить("ДолжнПодп"				, Новый ОписаниеТипов("Строка"));
@@ -1270,6 +1504,8 @@
 	Иначе		
 		Строка.НалКоорТочВрУб  	= "";
 	КонецЕсли;  
+	
+	Строка.ИННГПер = Строка.Организация.ИНН;
 	
 	
 	//////////////////////МЧД//////////////////////
