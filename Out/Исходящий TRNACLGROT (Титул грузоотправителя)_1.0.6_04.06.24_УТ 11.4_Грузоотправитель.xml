@@ -1629,6 +1629,35 @@
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">ГЛН</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:string">Документ.GLNМестаДоставки</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">Коорд</Value>
 							<Value xsi:type="xs:string">Возврат ЗначениеЗаполнено(Документ.КоординатыМестаШирота) И ЗначениеЗаполнено(Документ.КоординатыМестаДолгота)</Value>
 							<Value xsi:type="ValueListType">
@@ -1813,16 +1842,11 @@
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">3</lastId>
+							<lastId xsi:type="xs:decimal">4</lastId>
 							<item>
 								<value xsi:type="xs:string">АдрКоммент</value>
 								<presentation>Документ.КомментарииКАдресу</presentation>
-								<id xsi:type="xs:decimal">2</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ГЛН</value>
-								<presentation>Документ.GLNМестаДоставки</presentation>
-								<id xsi:type="xs:decimal">3</id>
+								<id xsi:type="xs:decimal">4</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string"/>
