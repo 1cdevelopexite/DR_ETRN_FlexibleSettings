@@ -196,6 +196,74 @@
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">ГЛН</Value>
+							<Value xsi:type="xs:string">Документ.GLNМестаВыгрузки</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">Коорд</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">1</lastId>
+								<item>
+									<value xsi:type="xs:string">Широта</value>
+									<presentation>Документ.КоординатыМестаШирота</presentation>
+									<id xsi:type="xs:decimal">0</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">Долгота</value>
+									<presentation>Документ.КоординатыМестаДолгота</presentation>
+									<id xsi:type="xs:decimal">1</id>
+								</item>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">АдресРФ</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:boolean">false</Value>
@@ -342,10 +410,11 @@
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">1</lastId>
+							<lastId xsi:type="xs:decimal">2</lastId>
 							<item>
-								<value xsi:type="xs:string"/>
-								<id xsi:type="xs:decimal">1</id>
+								<value xsi:type="xs:string">АдрКоммент</value>
+								<presentation>Документ.КомментарииКАдресу</presentation>
+								<id xsi:type="xs:decimal">2</id>
 							</item>
 						</Value>
 						<Value xsi:nil="true"/>
@@ -987,46 +1056,46 @@
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">55</lastId>
+							<lastId xsi:type="xs:decimal">63</lastId>
 							<item>
 								<value xsi:type="xs:string">ФактКолЕдИзм</value>
 								<presentation>РазмШтр.ФактКолЕдИзм</presentation>
-								<id xsi:type="xs:decimal">48</id>
+								<id xsi:type="xs:decimal">56</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИтогРазмШтрРФ</value>
-								<presentation>РазмШтр.ИтогРазмШтрРФ</presentation>
-								<id xsi:type="xs:decimal">49</id>
+								<presentation>РазмШтр.ИтогШтрРФ</presentation>
+								<id xsi:type="xs:decimal">57</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">КодОКВ</value>
 								<presentation>РазмШтр.КодОКВ</presentation>
-								<id xsi:type="xs:decimal">50</id>
+								<id xsi:type="xs:decimal">58</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">НаимОКВ</value>
 								<presentation>РазмШтр.НаимОКВ</presentation>
-								<id xsi:type="xs:decimal">51</id>
+								<id xsi:type="xs:decimal">59</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИтогРазмШтрИн</value>
-								<presentation>РазмШтр.ИтогРазмШтрИн</presentation>
-								<id xsi:type="xs:decimal">52</id>
+								<presentation>РазмШтр.ИтогШтрИн</presentation>
+								<id xsi:type="xs:decimal">60</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДатаКурсВал</value>
 								<presentation>РазмШтр.ДатаКурсВалСтр</presentation>
-								<id xsi:type="xs:decimal">53</id>
+								<id xsi:type="xs:decimal">61</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">КурсВал</value>
 								<presentation>РазмШтр.КурсВал</presentation>
-								<id xsi:type="xs:decimal">54</id>
+								<id xsi:type="xs:decimal">62</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">РасчШтр</value>
 								<presentation>РазмШтр.РасчШтр</presentation>
-								<id xsi:type="xs:decimal">55</id>
+								<id xsi:type="xs:decimal">63</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string">Возврат Документ.СведенияШтрафов = Истина;</Value>
@@ -1909,7 +1978,12 @@
 			Результат.Колонки.Добавить("МасНетЗначПриемСтр"		, Новый ОписаниеТипов("Строка"));
 			Результат.Колонки.Добавить("Объем"					, Новый ОписаниеТипов("Число"));
 			Результат.Колонки.Добавить("ОбъемСтр"				, Новый ОписаниеТипов("Строка"));
-				//&lt;АдрВыгруз&gt;
+				//&lt;АдрВыгруз&gt; 
+				 Результат.Колонки.Добавить("КомментарииКАдресу"		, Новый ОписаниеТипов("Строка"));
+			   	 Результат.Колонки.Добавить("GLNМестаВыгрузки"			, Новый ОписаниеТипов("Строка")); 	
+			   	 Результат.Колонки.Добавить("КоординатыМестаШирота"		, Новый ОписаниеТипов("Строка")); 
+			   	 Результат.Колонки.Добавить("КоординатыМестаДолгота"	, Новый ОписаниеТипов("Строка"));
+				
 			   	 Результат.Колонки.Добавить("АдресМестаВыгрузкиДанные"		, Новый ОписаниеТипов("ХранилищеЗначения"));
 			   	 Результат.Колонки.Добавить("АдресМестаВыгрузкиТипАдреса"	, Новый ОписаниеТипов("Строка"));	
 			 	 	//&lt;АдресРФ&gt;

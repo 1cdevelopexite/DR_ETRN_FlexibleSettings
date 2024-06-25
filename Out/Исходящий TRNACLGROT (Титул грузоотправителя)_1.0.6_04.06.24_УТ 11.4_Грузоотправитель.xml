@@ -5667,6 +5667,147 @@
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
 					</row>
+					<row>
+						<Value xsi:type="xs:boolean">true</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="xs:string">ОснДостОбИнфрТекст</Value>
+						<Value xsi:type="xs:string">Возврат Документ.СовпГОВ = "2" И Документ.ОснДостОбИнфрТип = "Текст";</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="xs:string">Документ.ОснДостОбИнфрТекст</Value>
+						<Value xsi:type="ValueTable"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+					</row>
+					<row>
+						<row>
+							<row>
+								<Value xsi:type="xs:boolean">true</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="xs:string">ИННЮЛ</Value>
+								<Value xsi:nil="true"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="xs:string">Документ.ИННЮЛГО</Value>
+								<Value xsi:type="ValueTable"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
+							</row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">ИдРекСост</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<Value xsi:type="xs:boolean">true</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="xs:string">ОснДостОбИнфрДок</Value>
+						<Value xsi:type="xs:string">Возврат Документ.СовпГОВ = "2" И Документ.ОснДостОбИнфрТип = "Документ";</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">4</lastId>
+							<item>
+								<value xsi:type="xs:string">НаимДок</value>
+								<presentation>Документ.НаимДокОснДостОбИнфр</presentation>
+								<id xsi:type="xs:decimal">0</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">НомерДок</value>
+								<presentation>Документ.НомерДокОснДостОбИнфр</presentation>
+								<id xsi:type="xs:decimal">1</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДатаДок</value>
+								<presentation>Документ.ДатаДокОснДостОбИнфрСтр</presentation>
+								<id xsi:type="xs:decimal">2</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ИдДок</value>
+								<presentation>Документ.ИдДокОснДостОбИнфр</presentation>
+								<id xsi:type="xs:decimal">3</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДопСведДок</value>
+								<presentation>Документ.ДопСведДокОснДостОбИнфр</presentation>
+								<id xsi:type="xs:decimal">4</id>
+							</item>
+						</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueTable"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+					</row>
 					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
@@ -6599,9 +6740,20 @@
  		Результат.Колонки.Добавить("ЭлПочтаВладИнфрУчастСЗ"	, Новый ОписаниеТипов("СписокЗначений"));
  		Результат.Колонки.Добавить("ИнКонтВладИнфрУчаст"	, Новый ОписаниеТипов("Строка"));        
  		Результат.Колонки.Добавить("ИнКонтВладИнфрУчастСЗ"	, Новый ОписаниеТипов("СписокЗначений"));
-       
+                                   
+	Результат.Колонки.Добавить("ОснДостОбИнфрТип"		, Новый ОписаниеТипов("Строка"));
+                                   
     //ОснДостОбИнфрТекст
     Результат.Колонки.Добавить("ОснДостОбИнфрТекст"		, Новый ОписаниеТипов("Строка"));
+    
+    //ОснДостОбИнфДок
+    Результат.Колонки.Добавить("НаимДокОснДостОбИнфр"		, Новый ОписаниеТипов("Строка"));
+    Результат.Колонки.Добавить("НомерДокОснДостОбИнфр"		, Новый ОписаниеТипов("Строка"));
+    Результат.Колонки.Добавить("ДатаДокОснДостОбИнфр"		, Новый ОписаниеТипов("Дата"));
+    Результат.Колонки.Добавить("ДатаДокОснДостОбИнфрСтр"	, Новый ОписаниеТипов("Строка"));
+    Результат.Колонки.Добавить("ИдДокОснДостОбИнфр"			, Новый ОписаниеТипов("Строка"));
+    Результат.Колонки.Добавить("ДопСведДокОснДостОбИнфр"	, Новый ОписаниеТипов("Строка"));
+
 	
 	//ИдентРекГО	//Для СовпГОВ = "1"
  //
@@ -6949,7 +7101,8 @@
  	 Строка.ДатаДокПрицепОснованиеСтр 			= Строка(Формат(Строка.ДатаДокПрицепОснование,"ДФ=dd.MM.yyyy"));
  	 Строка.ДатаДокПереадрСтр					= Строка(Формат(Строка.ДатаДокПереадр,"ДФ=dd.MM.yyyy"));
 	 Строка.КолМестПриемСтр	  					= Формат(Строка.КолМестПрием,"ЧРД=.;ЧГ=0"); 
-	 Строка.ДатаСРСтр							= Строка(Формат(Строка.ДатаСР,"ДФ=dd.MM.yyyy")); 
+	 Строка.ДатаСРСтр							= Строка(Формат(Строка.ДатаСР,"ДФ=dd.MM.yyyy"));
+	 Строка.ДатаДокОснДостОбИнфрСтр 			= Строка(Формат(Строка.ДатаДокОснДостОбИнфр,"ДФ=dd.MM.yyyy"));
 	 
 	 Строка.КонтПАТлфСЗ.Добавить(Строка.КонтПАТлф);
 	 Строка.ТлфУчастСЗ.Добавить(Строка.ТлфУчаст);
