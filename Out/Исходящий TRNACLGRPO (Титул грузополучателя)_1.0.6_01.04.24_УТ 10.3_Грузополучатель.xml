@@ -242,7 +242,7 @@
 									<id xsi:type="xs:decimal">1</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
+							<Value xsi:type="xs:string">Возврат ЗначениеЗаполнено(Документ.КоординатыМестаШирота) И ЗначениеЗаполнено(Документ.КоординатыМестаДолгота);</Value>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
@@ -505,7 +505,11 @@
 
 Для Каждого Строка из РезультатЗапроса Цикл     
 	
-	СтруктураТЧ = ВернутьЗначениеДопРеквизитаИзДокумента("Таблицы", Строка.ДополнительныеРеквизиты);
+	СтруктураТЧ = ВернутьЗначениеДопРеквизитаИзДокумента("Таблицы", Строка.ДополнительныеРеквизиты); 
+	Если СтруктураТЧ = Неопределено Тогда
+		Продолжить;	
+	КонецЕсли;
+	
 	СтруктураТЧ = СтруктураТЧ.Получить();
 	
 	Для Каждого МассивДанныхТЧ Из СтруктураТЧ Цикл   
@@ -876,31 +880,31 @@
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">25</lastId>
+							<lastId xsi:type="xs:decimal">30</lastId>
 							<item>
 								<value xsi:type="xs:string">НаимДок</value>
-								<presentation>ОтметГП.НаименованиеДокумента</presentation>
-								<id xsi:type="xs:decimal">21</id>
+								<presentation>СвАкт.НаимДок</presentation>
+								<id xsi:type="xs:decimal">26</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">НомерДок</value>
-								<presentation>ОтметГП.НомерДокумента</presentation>
-								<id xsi:type="xs:decimal">22</id>
+								<presentation>СвАкт.НомерДок</presentation>
+								<id xsi:type="xs:decimal">27</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДатаДок</value>
-								<presentation>ОтметГП.ДатаСвАкт</presentation>
-								<id xsi:type="xs:decimal">23</id>
+								<presentation>СвАкт.ДатаДокСтр</presentation>
+								<id xsi:type="xs:decimal">28</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИдДок</value>
-								<presentation>ОтметГП.ИД_Документа</presentation>
-								<id xsi:type="xs:decimal">24</id>
+								<presentation>СвАкт.ИдДок</presentation>
+								<id xsi:type="xs:decimal">29</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДопСведДок</value>
-								<presentation>ОтметГП.ДополнительныеСведения</presentation>
-								<id xsi:type="xs:decimal">25</id>
+								<presentation>СвАкт.ДопСведДок</presentation>
+								<id xsi:type="xs:decimal">30</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string">Возврат Документ.СведенияИныхАктов = Истина;</Value>
@@ -1429,7 +1433,7 @@
 
 Для Каждого Строка из РезультатЗпр Цикл  
 	
-	СтруктураТЧ = Строка.ХранилищеЗначения.Получить();    	                                                                                                                                                                                  
+	СтруктураТЧ = Строка.ХранилищеЗначения.Получить();  
 		                                                                                          
 	Для Каждого МассивДанныхТЧ Из СтруктураТЧ Цикл
 				
