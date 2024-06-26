@@ -4749,4 +4749,74 @@
 		<Value>aperakETRN</Value>
 		<Value>SG2_RFF_C506_E1154</Value>
 	</row>
+	<row>
+		<Value>"Тип основания" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>ОснДостОбИнфрТип</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>СовпГОВ</Value>
+		<Value>2</Value>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Текст" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>ОснДостОбИнфрТекст</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>СовпГОВ|ОснДостОбИнфрТип</Value>
+		<Value>2|Текст</Value>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Наименование документа" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>НаимДокОснДостОбИнфр</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>СовпГОВ|ОснДостОбИнфрТип|ИдДокОснДостОбИнфр</Value>
+		<Value>2|Документ|</Value>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Номер документа" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>НомерДокОснДостОбИнфр</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>СовпГОВ|ОснДостОбИнфрТип|ИдДокОснДостОбИнфр</Value>
+		<Value>2|Документ|</Value>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Дата документа" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>ДатаДокОснДостОбИнфр</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>СовпГОВ|ОснДостОбИнфрТип|ИдДокОснДостОбИнфр</Value>
+		<Value>2|Документ|</Value>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Идентификатор файла документа" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>ИдДокОснДостОбИнфр</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>СовпГОВ|ОснДостОбИнфрТип|НаимДокОснДостОбИнфр|НомерДокОснДостОбИнфр|ДатаДокОснДостОбИнфр</Value>
+		<Value>2|Документ|||01.01.0001 0:00:00</Value>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Дополнительные сведения" на вкладке "Основание беспрепятственного доступа к объекту"</Value>
+		<Value>ДопСведДокОснДостОбИнфр</Value>
+		<Value>false</Value>
+		<Value>false</Value>
+		<Value/>
+		<Value/>
+		<Value>ON_TRNACLGROT</Value>
+		<Value/>
+	</row>
 </ValueTable>
