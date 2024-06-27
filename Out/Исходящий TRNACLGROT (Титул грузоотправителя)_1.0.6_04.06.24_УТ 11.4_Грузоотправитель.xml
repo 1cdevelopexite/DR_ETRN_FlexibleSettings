@@ -3903,26 +3903,26 @@
 						<Value xsi:type="xs:string">Возврат ЗначениеЗаполнено(Документ.НомСР) И ЗначениеЗаполнено(Документ.ДатаСР) И ЗначениеЗаполнено(Документ.СрокСР) ИЛИ ЗначениеЗаполнено(Документ.ИдСР)</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">3</lastId>
+							<lastId xsi:type="xs:decimal">7</lastId>
 							<item>
 								<value xsi:type="xs:string">НомСР</value>
 								<presentation>Документ.НомСР</presentation>
-								<id xsi:type="xs:decimal">0</id>
+								<id xsi:type="xs:decimal">4</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ДатаСР</value>
-								<presentation>Документ.ДатаСР</presentation>
-								<id xsi:type="xs:decimal">1</id>
+								<presentation>Документ.ДатаСРСтр</presentation>
+								<id xsi:type="xs:decimal">5</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">СрокСР</value>
 								<presentation>Документ.СрокСР</presentation>
-								<id xsi:type="xs:decimal">2</id>
+								<id xsi:type="xs:decimal">6</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ИдСр</value>
 								<presentation>Документ.ИдСР</presentation>
-								<id xsi:type="xs:decimal">3</id>
+								<id xsi:type="xs:decimal">7</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string"/>
@@ -4587,7 +4587,7 @@
 									</Value>
 								</row>
 								<row>
-									<Value xsi:type="xs:boolean">false</Value>
+									<Value xsi:type="xs:boolean">true</Value>
 									<Value xsi:type="xs:string"/>
 									<Value xsi:type="xs:string"/>
 									<Value xsi:type="xs:string">ЭлПочта</Value>
@@ -4616,7 +4616,7 @@
 									</Value>
 								</row>
 								<row>
-									<Value xsi:type="xs:boolean">false</Value>
+									<Value xsi:type="xs:boolean">true</Value>
 									<Value xsi:type="xs:string"/>
 									<Value xsi:type="xs:string"/>
 									<Value xsi:type="xs:string">ИнКонт</Value>
