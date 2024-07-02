@@ -1932,21 +1932,128 @@
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">Габар</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">5</lastId>
+								<item>
+									<value xsi:type="xs:string">ВысЗнач</value>
+									<presentation>ОпГруз.ВысЗнач</presentation>
+									<id xsi:type="xs:decimal">3</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">ДлЗнач</value>
+									<presentation>ОпГруз.ДлЗнач</presentation>
+									<id xsi:type="xs:decimal">4</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">ШирЗнач</value>
+									<presentation>ОпГруз.ШирЗнач</presentation>
+									<id xsi:type="xs:decimal">5</id>
+								</item>
+							</Value>
+							<Value xsi:type="xs:string">Возврат ЗначениеЗаполнено(ОпГруз.ВысЗнач) Или ЗначениеЗаполнено(ОпГруз.ДлЗнач) Или ЗначениеЗаполнено(ОпГруз.ШирЗнач)</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">СвОпГруз</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">СвКонтейн</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">ПлМасГруз</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="ValueListType">
 								<valueType/>
-								<lastId xsi:type="xs:decimal">7</lastId>
+								<lastId xsi:type="xs:decimal">10</lastId>
 								<item>
 									<value xsi:type="xs:string">МасНетЗнач</value>
 									<presentation>ОпГруз.МасНетЗнач</presentation>
-									<id xsi:type="xs:decimal">6</id>
+									<id xsi:type="xs:decimal">8</id>
 								</item>
 								<item>
 									<value xsi:type="xs:string">МасБрутЗнач</value>
 									<presentation>ОпГруз.МасБрутЗнач</presentation>
-									<id xsi:type="xs:decimal">7</id>
+									<id xsi:type="xs:decimal">9</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">КолПалл</value>
+									<presentation>ОпГруз.КолПалл</presentation>
+									<id xsi:type="xs:decimal">10</id>
 								</item>
 							</Value>
 							<Value xsi:nil="true"/>
@@ -1992,6 +2099,35 @@
 									<presentation>ОпГруз.НаимОКВ</presentation>
 									<id xsi:type="xs:decimal">17</id>
 								</item>
+							</Value>
+							<Value xsi:nil="true"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">ЗакУсл</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
@@ -2128,15 +2264,14 @@
 					ЗаполнитьЗначенияСвойств(НоваяСтрока, СтруктураТЧ);
 					
 					//формат
-					Если НоваяСтрока.ИдНомУчетЕд.Количество() Тогда
-						НоваяСтрока.НаимГруз = НоваяСтрока.НаимГруз	+ ", " + НоваяСтрока.ИдНомУчетЕд[0].Значение.КодВидаПрод + ", " + НоваяСтрока.ИдНомУчетЕд[0].Значение.ЕмкостьТары + ", " + НоваяСтрока.ИдНомУчетЕд[0].Значение.ИдНомУчетЕд;
-						НоваяСтрока.ИдНомУчетЕд	= НоваяСтрока.ИдНомУчетЕд[0].Значение.ИдНомУчетЕд;
-					КонецЕсли;
 					НоваяСтрока.Ссылка 		= Строка.Ссылка;  
 					НоваяСтрока.СтЦеннГр	= Формат(НоваяСтрока.СтЦеннГр,"ЧРД=.;ЧГ=0");
 					НоваяСтрока.МасНетЗнач	= Формат(НоваяСтрока.МасНетЗнач,"ЧРД=.;ЧГ=0");
 					НоваяСтрока.МасБрутЗнач	= Формат(НоваяСтрока.МасБрутЗнач,"ЧРД=.;ЧГ=0");
 	               	НоваяСтрока.КолМестГр	= Формат(НоваяСтрока.КолМестГр,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.ВысЗнач		= Формат(НоваяСтрока.ВысЗнач,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.ДлЗнач		= Формат(НоваяСтрока.ДлЗнач,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.ШирЗнач		= Формат(НоваяСтрока.ШирЗнач,"ЧРД=.;ЧГ=0"); 
 	               	НоваяСтрока.УчГосСист	= ?(НоваяСтрока.УчГосСист = Истина, "1", "0");  
 				КонецЦикла;
 				 
@@ -2151,31 +2286,56 @@
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">26</lastId>
+							<lastId xsi:type="xs:decimal">44</lastId>
 							<item>
 								<value xsi:type="xs:string">НаимГруз</value>
 								<presentation>ОпГруз.НаимГруз</presentation>
-								<id xsi:type="xs:decimal">22</id>
+								<id xsi:type="xs:decimal">35</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">КодТовНом</value>
+								<presentation>ОпГруз.КодТовНом</presentation>
+								<id xsi:type="xs:decimal">36</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">СостГруз</value>
 								<presentation>ОпГруз.СостГруз</presentation>
-								<id xsi:type="xs:decimal">23</id>
+								<id xsi:type="xs:decimal">37</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">СпУпак</value>
 								<presentation>ОпГруз.СпУпак</presentation>
-								<id xsi:type="xs:decimal">24</id>
+								<id xsi:type="xs:decimal">38</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ВидТар</value>
 								<presentation>ОпГруз.ВидТар</presentation>
-								<id xsi:type="xs:decimal">25</id>
+								<id xsi:type="xs:decimal">39</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">Плотн</value>
+								<presentation>ОпГруз.Плотн</presentation>
+								<id xsi:type="xs:decimal">40</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">Объем</value>
+								<presentation>ОпГруз.Объем</presentation>
+								<id xsi:type="xs:decimal">41</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">КолМестГр</value>
 								<presentation>ОпГруз.КолМестГр</presentation>
-								<id xsi:type="xs:decimal">26</id>
+								<id xsi:type="xs:decimal">42</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">УчГосСист</value>
+								<presentation>ОпГруз.УчГосСист</presentation>
+								<id xsi:type="xs:decimal">43</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДрОГруз</value>
+								<presentation>ОпГруз.ДрОГруз</presentation>
+								<id xsi:type="xs:decimal">44</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string"/>
@@ -2193,122 +2353,10 @@
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">28</lastId>
+							<lastId xsi:type="xs:decimal">0</lastId>
 							<item>
 								<value xsi:type="xs:string">Ссылка</value>
 								<id xsi:type="xs:decimal">0</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">НаимГруз</value>
-								<id xsi:type="xs:decimal">1</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КодТовНом</value>
-								<id xsi:type="xs:decimal">2</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СостГруз</value>
-								<id xsi:type="xs:decimal">3</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СпУпак</value>
-								<id xsi:type="xs:decimal">4</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ВидТар</value>
-								<id xsi:type="xs:decimal">5</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">Плотн</value>
-								<id xsi:type="xs:decimal">6</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">Объем</value>
-								<id xsi:type="xs:decimal">7</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КолМестГр</value>
-								<id xsi:type="xs:decimal">8</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">УчГосСист</value>
-								<id xsi:type="xs:decimal">9</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ДрОГруз</value>
-								<id xsi:type="xs:decimal">10</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">Маркировка</value>
-								<id xsi:type="xs:decimal">11</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ВысЗнач</value>
-								<id xsi:type="xs:decimal">12</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ДлЗнач</value>
-								<id xsi:type="xs:decimal">13</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ШирЗнач</value>
-								<id xsi:type="xs:decimal">14</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СвОпГруз</value>
-								<id xsi:type="xs:decimal">15</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СвКонтейн</value>
-								<id xsi:type="xs:decimal">16</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">МасНетЗнач</value>
-								<id xsi:type="xs:decimal">17</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">МасБрутЗнач</value>
-								<id xsi:type="xs:decimal">18</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КолПалл</value>
-								<id xsi:type="xs:decimal">19</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СтЦеннГр</value>
-								<id xsi:type="xs:decimal">20</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КодОКВ</value>
-								<id xsi:type="xs:decimal">21</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">НаимОКВ</value>
-								<id xsi:type="xs:decimal">22</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СвГосСист</value>
-								<id xsi:type="xs:decimal">23</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ИдНомУчетЕд</value>
-								<id xsi:type="xs:decimal">24</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ИнаяИнф</value>
-								<id xsi:type="xs:decimal">25</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">УчетЕд</value>
-								<id xsi:type="xs:decimal">26</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">НаимГосСист</value>
-								<id xsi:type="xs:decimal">27</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">НомерПоПорядку</value>
-								<id xsi:type="xs:decimal">28</id>
 							</item>
 						</Value>
 						<Value xsi:type="ValueListType">
@@ -6154,7 +6202,7 @@
 		<Value xsi:type="xs:string">ДокументЭТРН</Value>
 		<Value xsi:type="xs:string">Файл</Value>
 		<Value xsi:type="xs:string">ЗапросМЧД = Новый Запрос; 
-ЗапросМЧД.УстановитьПараметр("ЭтоРегламентноеЗадание", 1);                                
+ЗапросМЧД.УстановитьПараметр("ЭтоРегламентноеЗадание", ЭтоРегламентноеЗадание);                                
 ЗапросМЧД.УстановитьПараметр("Пользователь", НайтиТекущегоПользователя()); 
 ЗапросМЧД.УстановитьПараметр("ТекущаяДата", ТекущаяДата()); 
 ЗапросМЧД.УстановитьПараметр("DR_УчастникиОбмена", DR_УчастникиОбмена.Выгрузить()); 
@@ -7314,1487 +7362,7 @@
 		<Value xsi:type="ValueTable"/>
 		<Value xsi:type="ValueListType">
 			<valueType/>
-			<lastId xsi:type="xs:decimal">369</lastId>
-			<item>
-				<value xsi:type="xs:string">Ссылка</value>
-				<id xsi:type="xs:decimal">0</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Номер</value>
-				<id xsi:type="xs:decimal">1</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдентификаторДокумента</value>
-				<id xsi:type="xs:decimal">2</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВидДокумента</value>
-				<id xsi:type="xs:decimal">3</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Организация</value>
-				<id xsi:type="xs:decimal">4</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОтправитьМЧД</value>
-				<id xsi:type="xs:decimal">5</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Заказчик</value>
-				<id xsi:type="xs:decimal">6</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузоотправитель</value>
-				<id xsi:type="xs:decimal">7</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузополучатель</value>
-				<id xsi:type="xs:decimal">8</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Перевозчик</value>
-				<id xsi:type="xs:decimal">9</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузоотправительИНН</value>
-				<id xsi:type="xs:decimal">10</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузополучательИНН</value>
-				<id xsi:type="xs:decimal">11</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузоперевозчикИНН</value>
-				<id xsi:type="xs:decimal">12</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЗаказчикИНН</value>
-				<id xsi:type="xs:decimal">13</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузоотправительКПП</value>
-				<id xsi:type="xs:decimal">14</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузополучательКПП</value>
-				<id xsi:type="xs:decimal">15</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузоперевозчикКПП</value>
-				<id xsi:type="xs:decimal">16</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЗаказчикКПП</value>
-				<id xsi:type="xs:decimal">17</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузоотправитель_GUID</value>
-				<id xsi:type="xs:decimal">18</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГородГО</value>
-				<id xsi:type="xs:decimal">19</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДомГО</value>
-				<id xsi:type="xs:decimal">20</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИндексГО</value>
-				<id xsi:type="xs:decimal">21</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИностранныйАдресГО</value>
-				<id xsi:type="xs:decimal">22</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КвартГО</value>
-				<id xsi:type="xs:decimal">23</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодРегионГО</value>
-				<id xsi:type="xs:decimal">24</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КорпусГО</value>
-				<id xsi:type="xs:decimal">25</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаселПунктГО</value>
-				<id xsi:type="xs:decimal">26</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РайонГО</value>
-				<id xsi:type="xs:decimal">27</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УлицаГО</value>
-				<id xsi:type="xs:decimal">28</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЯвляетсяИностраннымГО</value>
-				<id xsi:type="xs:decimal">29</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПредставлениеГрузоотправителя</value>
-				<id xsi:type="xs:decimal">30</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Заказчик_GUID</value>
-				<id xsi:type="xs:decimal">31</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГородЗАК</value>
-				<id xsi:type="xs:decimal">32</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДомЗАК</value>
-				<id xsi:type="xs:decimal">33</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИндексЗАК</value>
-				<id xsi:type="xs:decimal">34</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИностранныйАдресЗАК</value>
-				<id xsi:type="xs:decimal">35</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КвартЗАК</value>
-				<id xsi:type="xs:decimal">36</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодРегионЗАК</value>
-				<id xsi:type="xs:decimal">37</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КорпусЗАК</value>
-				<id xsi:type="xs:decimal">38</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаселПунктЗАК</value>
-				<id xsi:type="xs:decimal">39</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РайонЗАК</value>
-				<id xsi:type="xs:decimal">40</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УлицаЗАК</value>
-				<id xsi:type="xs:decimal">41</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЯвляетсяИностраннымЗАК</value>
-				<id xsi:type="xs:decimal">42</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПредставлениеЗаказчика</value>
-				<id xsi:type="xs:decimal">43</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузополучатель_GUID</value>
-				<id xsi:type="xs:decimal">44</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГородГП</value>
-				<id xsi:type="xs:decimal">45</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДомГП</value>
-				<id xsi:type="xs:decimal">46</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИндексГП</value>
-				<id xsi:type="xs:decimal">47</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИностранныйАдресГП</value>
-				<id xsi:type="xs:decimal">48</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КвартГП</value>
-				<id xsi:type="xs:decimal">49</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодРегионГП</value>
-				<id xsi:type="xs:decimal">50</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КорпусГП</value>
-				<id xsi:type="xs:decimal">51</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаселПунктГП</value>
-				<id xsi:type="xs:decimal">52</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РайонГП</value>
-				<id xsi:type="xs:decimal">53</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УлицаГП</value>
-				<id xsi:type="xs:decimal">54</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЯвляетсяИностраннымГП</value>
-				<id xsi:type="xs:decimal">55</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПредставлениеГрузополучателя</value>
-				<id xsi:type="xs:decimal">56</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Перевозчик_GUID</value>
-				<id xsi:type="xs:decimal">57</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГородПЕР</value>
-				<id xsi:type="xs:decimal">58</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДомПЕР</value>
-				<id xsi:type="xs:decimal">59</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИндексПЕР</value>
-				<id xsi:type="xs:decimal">60</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИностранныйАдресПЕР</value>
-				<id xsi:type="xs:decimal">61</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КвартПЕР</value>
-				<id xsi:type="xs:decimal">62</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодРегионПЕР</value>
-				<id xsi:type="xs:decimal">63</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КорпусПЕР</value>
-				<id xsi:type="xs:decimal">64</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаселПунктПЕР</value>
-				<id xsi:type="xs:decimal">65</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РайонПЕР</value>
-				<id xsi:type="xs:decimal">66</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УлицаПЕР</value>
-				<id xsi:type="xs:decimal">67</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЯвляетсяИностраннымПЕР</value>
-				<id xsi:type="xs:decimal">68</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПредставлениеГрузоперевозчика</value>
-				<id xsi:type="xs:decimal">69</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдФайл</value>
-				<id xsi:type="xs:decimal">70</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдФайлЗак</value>
-				<id xsi:type="xs:decimal">71</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВерсПрог</value>
-				<id xsi:type="xs:decimal">72</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВерсФорм</value>
-				<id xsi:type="xs:decimal">73</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИмяФайла</value>
-				<id xsi:type="xs:decimal">74</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдПолИной</value>
-				<id xsi:type="xs:decimal">75</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КНД</value>
-				<id xsi:type="xs:decimal">76</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПоФактХЖ</value>
-				<id xsi:type="xs:decimal">77</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатИнфГО</value>
-				<id xsi:type="xs:decimal">78</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВрИнфГО</value>
-				<id xsi:type="xs:decimal">79</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимЭкСубСост</value>
-				<id xsi:type="xs:decimal">80</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокУЧАСТ</value>
-				<id xsi:type="xs:decimal">81</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокУЧАСТ</value>
-				<id xsi:type="xs:decimal">82</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокУЧАСТ</value>
-				<id xsi:type="xs:decimal">83</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдДокУЧАСТ</value>
-				<id xsi:type="xs:decimal">84</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДопСведДокУЧАСТ</value>
-				<id xsi:type="xs:decimal">85</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УИДТрН</value>
-				<id xsi:type="xs:decimal">86</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СодОпер</value>
-				<id xsi:type="xs:decimal">87</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТранспортнаяНакладнаяНомер</value>
-				<id xsi:type="xs:decimal">88</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТранспортнаяНакладнаяДата</value>
-				<id xsi:type="xs:decimal">89</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТранспортнаяНакладнаяДатаСтр</value>
-				<id xsi:type="xs:decimal">90</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомЗак</value>
-				<id xsi:type="xs:decimal">91</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаЗак</value>
-				<id xsi:type="xs:decimal">92</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаЗакСтр</value>
-				<id xsi:type="xs:decimal">93</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатФайлЗак</value>
-				<id xsi:type="xs:decimal">94</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВрФайлЗак</value>
-				<id xsi:type="xs:decimal">95</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭП</value>
-				<id xsi:type="xs:decimal">96</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГОЭксп</value>
-				<id xsi:type="xs:decimal">97</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчастГО</value>
-				<id xsi:type="xs:decimal">98</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчастГО</value>
-				<id xsi:type="xs:decimal">99</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОргГО</value>
-				<id xsi:type="xs:decimal">100</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛГО</value>
-				<id xsi:type="xs:decimal">101</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КППГО</value>
-				<id xsi:type="xs:decimal">102</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфГО</value>
-				<id xsi:type="xs:decimal">103</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочтаГО</value>
-				<id xsi:type="xs:decimal">104</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонтГО</value>
-				<id xsi:type="xs:decimal">105</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчастЗАК</value>
-				<id xsi:type="xs:decimal">106</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчастЗАК</value>
-				<id xsi:type="xs:decimal">107</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОргЗАК</value>
-				<id xsi:type="xs:decimal">108</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛЗАК</value>
-				<id xsi:type="xs:decimal">109</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КППЗАК</value>
-				<id xsi:type="xs:decimal">110</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфЗАК</value>
-				<id xsi:type="xs:decimal">111</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочтаЗАК</value>
-				<id xsi:type="xs:decimal">112</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонтЗАК</value>
-				<id xsi:type="xs:decimal">113</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЕстьОснование</value>
-				<id xsi:type="xs:decimal">114</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокПЕРЕВОЗКА</value>
-				<id xsi:type="xs:decimal">115</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокПЕРЕВОЗКА</value>
-				<id xsi:type="xs:decimal">116</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокПЕРЕВОЗКА</value>
-				<id xsi:type="xs:decimal">117</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдДокПЕРЕВОЗКА</value>
-				<id xsi:type="xs:decimal">118</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДопСведДокПЕРЕВОЗКА</value>
-				<id xsi:type="xs:decimal">119</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОИВПЕРЕВОЗКА</value>
-				<id xsi:type="xs:decimal">120</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчастГП</value>
-				<id xsi:type="xs:decimal">121</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчастГП</value>
-				<id xsi:type="xs:decimal">122</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОргГП</value>
-				<id xsi:type="xs:decimal">123</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛГП</value>
-				<id xsi:type="xs:decimal">124</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КППГП</value>
-				<id xsi:type="xs:decimal">125</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфГП</value>
-				<id xsi:type="xs:decimal">126</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочтаГП</value>
-				<id xsi:type="xs:decimal">127</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонтГП</value>
-				<id xsi:type="xs:decimal">128</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдрКомментГП</value>
-				<id xsi:type="xs:decimal">129</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СтЦеннГр</value>
-				<id xsi:type="xs:decimal">130</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодОКВ</value>
-				<id xsi:type="xs:decimal">131</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОКВ</value>
-				<id xsi:type="xs:decimal">132</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчастПЕР</value>
-				<id xsi:type="xs:decimal">133</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчастПЕР</value>
-				<id xsi:type="xs:decimal">134</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОргПЕР</value>
-				<id xsi:type="xs:decimal">135</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛПЕР</value>
-				<id xsi:type="xs:decimal">136</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КПППЕР</value>
-				<id xsi:type="xs:decimal">137</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфПЕР</value>
-				<id xsi:type="xs:decimal">138</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочтаПЕР</value>
-				<id xsi:type="xs:decimal">139</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонтПЕР</value>
-				<id xsi:type="xs:decimal">140</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдрКомментПЕР</value>
-				<id xsi:type="xs:decimal">141</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомВУ</value>
-				<id xsi:type="xs:decimal">142</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СерВУ</value>
-				<id xsi:type="xs:decimal">143</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаВыдВУ</value>
-				<id xsi:type="xs:decimal">144</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаВыдВУСтр</value>
-				<id xsi:type="xs:decimal">145</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННФЛ</value>
-				<id xsi:type="xs:decimal">146</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвСпИдПодп</value>
-				<id xsi:type="xs:decimal">147</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВодитФамилия</value>
-				<id xsi:type="xs:decimal">148</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВодитИмя</value>
-				<id xsi:type="xs:decimal">149</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВодитОтчество</value>
-				<id xsi:type="xs:decimal">150</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВодитТлф</value>
-				<id xsi:type="xs:decimal">151</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЕстьПутевойЛист</value>
-				<id xsi:type="xs:decimal">152</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДок</value>
-				<id xsi:type="xs:decimal">153</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДок</value>
-				<id xsi:type="xs:decimal">154</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДок</value>
-				<id xsi:type="xs:decimal">155</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокСтр</value>
-				<id xsi:type="xs:decimal">156</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдДок</value>
-				<id xsi:type="xs:decimal">157</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДопСведДок</value>
-				<id xsi:type="xs:decimal">158</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТСРегНомер</value>
-				<id xsi:type="xs:decimal">159</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТСТипВлад</value>
-				<id xsi:type="xs:decimal">160</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТСНомерВИН</value>
-				<id xsi:type="xs:decimal">161</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТСНомСТС</value>
-				<id xsi:type="xs:decimal">162</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокТСОснование</value>
-				<id xsi:type="xs:decimal">163</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокТСОснование</value>
-				<id xsi:type="xs:decimal">164</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокТСОснование</value>
-				<id xsi:type="xs:decimal">165</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокТСОснованиеСтр</value>
-				<id xsi:type="xs:decimal">166</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарТСТип</value>
-				<id xsi:type="xs:decimal">167</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарТСМарка</value>
-				<id xsi:type="xs:decimal">168</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарТСГрузопод</value>
-				<id xsi:type="xs:decimal">169</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарТСГрузоподСтр</value>
-				<id xsi:type="xs:decimal">170</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарТСВместим</value>
-				<id xsi:type="xs:decimal">171</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарТСВместимСтр</value>
-				<id xsi:type="xs:decimal">172</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомСР</value>
-				<id xsi:type="xs:decimal">173</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаСР</value>
-				<id xsi:type="xs:decimal">174</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаСРСтр</value>
-				<id xsi:type="xs:decimal">175</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СрокСР</value>
-				<id xsi:type="xs:decimal">176</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдСР</value>
-				<id xsi:type="xs:decimal">177</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СведМршМршТекст</value>
-				<id xsi:type="xs:decimal">178</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СведМршМршМашЧит</value>
-				<id xsi:type="xs:decimal">179</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПрицепРегНомер</value>
-				<id xsi:type="xs:decimal">180</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПрицепТипВлад</value>
-				<id xsi:type="xs:decimal">181</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЕстьПрицеп</value>
-				<id xsi:type="xs:decimal">182</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПрицепНомерВИН</value>
-				<id xsi:type="xs:decimal">183</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПрицепНомСТС</value>
-				<id xsi:type="xs:decimal">184</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокПрицепОснование</value>
-				<id xsi:type="xs:decimal">185</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокПрицепОснование</value>
-				<id xsi:type="xs:decimal">186</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокПрицепОснование</value>
-				<id xsi:type="xs:decimal">187</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокПрицепОснованиеСтр</value>
-				<id xsi:type="xs:decimal">188</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарПрицепТип</value>
-				<id xsi:type="xs:decimal">189</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарПрицепМарка</value>
-				<id xsi:type="xs:decimal">190</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарПрицепГрузопод</value>
-				<id xsi:type="xs:decimal">191</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарПрицепГрузоподСтр</value>
-				<id xsi:type="xs:decimal">192</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарПрицепВместим</value>
-				<id xsi:type="xs:decimal">193</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПарПрицепВместимСтр</value>
-				<id xsi:type="xs:decimal">194</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СовпГОП</value>
-				<id xsi:type="xs:decimal">195</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СовпГОВ</value>
-				<id xsi:type="xs:decimal">196</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЗаявПогр</value>
-				<id xsi:type="xs:decimal">197</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЗаявПогрСтр</value>
-				<id xsi:type="xs:decimal">198</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрЗаяв</value>
-				<id xsi:type="xs:decimal">199</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФДатВрПриб</value>
-				<id xsi:type="xs:decimal">200</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФДатВрПрибСтр</value>
-				<id xsi:type="xs:decimal">201</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрФПогр</value>
-				<id xsi:type="xs:decimal">202</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФДатВрУбыт</value>
-				<id xsi:type="xs:decimal">203</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФДатВрУбытСтр</value>
-				<id xsi:type="xs:decimal">204</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрФУбыт</value>
-				<id xsi:type="xs:decimal">205</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">МасБрутОтгр</value>
-				<id xsi:type="xs:decimal">206</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">МасБрутОтгрСтр</value>
-				<id xsi:type="xs:decimal">207</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">МетОпрМасс</value>
-				<id xsi:type="xs:decimal">208</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КолМестПрием</value>
-				<id xsi:type="xs:decimal">209</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КолМестПриемСтр</value>
-				<id xsi:type="xs:decimal">210</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">GLNМестаДоставки</value>
-				<id xsi:type="xs:decimal">211</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиДанные</value>
-				<id xsi:type="xs:decimal">212</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиТипАдреса</value>
-				<id xsi:type="xs:decimal">213</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КомментарииКАдресу</value>
-				<id xsi:type="xs:decimal">214</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КоординатыМестаШирота</value>
-				<id xsi:type="xs:decimal">215</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КоординатыМестаДолгота</value>
-				<id xsi:type="xs:decimal">216</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиИндекс</value>
-				<id xsi:type="xs:decimal">217</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиКодРегион</value>
-				<id xsi:type="xs:decimal">218</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиРайон</value>
-				<id xsi:type="xs:decimal">219</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиГород</value>
-				<id xsi:type="xs:decimal">220</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиНаселПункт</value>
-				<id xsi:type="xs:decimal">221</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиУлица</value>
-				<id xsi:type="xs:decimal">222</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиДом</value>
-				<id xsi:type="xs:decimal">223</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиКорпус</value>
-				<id xsi:type="xs:decimal">224</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиКварт</value>
-				<id xsi:type="xs:decimal">225</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиКодСтр</value>
-				<id xsi:type="xs:decimal">226</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиАдресТекст</value>
-				<id xsi:type="xs:decimal">227</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаДоставкиКодГАР</value>
-				<id xsi:type="xs:decimal">228</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЗапрПерегруз</value>
-				<id xsi:type="xs:decimal">229</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрДостГр</value>
-				<id xsi:type="xs:decimal">230</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрДостГрСтр</value>
-				<id xsi:type="xs:decimal">231</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрДост</value>
-				<id xsi:type="xs:decimal">232</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СрокДостГр</value>
-				<id xsi:type="xs:decimal">233</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвПломба</value>
-				<id xsi:type="xs:decimal">234</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УкНормПрвз</value>
-				<id xsi:type="xs:decimal">235</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОгрСкор</value>
-				<id xsi:type="xs:decimal">236</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">МршТекст</value>
-				<id xsi:type="xs:decimal">237</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">МршМашЧит</value>
-				<id xsi:type="xs:decimal">238</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЛицоПА</value>
-				<id xsi:type="xs:decimal">239</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СпосПерУкПА</value>
-				<id xsi:type="xs:decimal">240</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КонтПАТлф</value>
-				<id xsi:type="xs:decimal">241</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КонтПАТлфСЗ</value>
-				<id xsi:type="xs:decimal">242</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КонтПАЭлПочта</value>
-				<id xsi:type="xs:decimal">243</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КонтПАИнКонт</value>
-				<id xsi:type="xs:decimal">244</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокПереадр</value>
-				<id xsi:type="xs:decimal">245</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокПереадр</value>
-				<id xsi:type="xs:decimal">246</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокПереадр</value>
-				<id xsi:type="xs:decimal">247</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокПереадрСтр</value>
-				<id xsi:type="xs:decimal">248</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдДокПереадр</value>
-				<id xsi:type="xs:decimal">249</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДопСведДокПереадр</value>
-				<id xsi:type="xs:decimal">250</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВлажнНеВыше</value>
-				<id xsi:type="xs:decimal">251</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВлажнНеНиже</value>
-				<id xsi:type="xs:decimal">252</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТемпНеВыше</value>
-				<id xsi:type="xs:decimal">253</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТемпНеНиже</value>
-				<id xsi:type="xs:decimal">254</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВлажнНеВышеСтр</value>
-				<id xsi:type="xs:decimal">255</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВлажнНеНижеСтр</value>
-				<id xsi:type="xs:decimal">256</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТемпНеВышеСтр</value>
-				<id xsi:type="xs:decimal">257</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТемпНеНижеСтр</value>
-				<id xsi:type="xs:decimal">258</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФСостТар</value>
-				<id xsi:type="xs:decimal">259</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФСостКуз</value>
-				<id xsi:type="xs:decimal">260</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФСостУп</value>
-				<id xsi:type="xs:decimal">261</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиДанные</value>
-				<id xsi:type="xs:decimal">262</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиТипАдреса</value>
-				<id xsi:type="xs:decimal">263</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиИндекс</value>
-				<id xsi:type="xs:decimal">264</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиКодРегион</value>
-				<id xsi:type="xs:decimal">265</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиРайон</value>
-				<id xsi:type="xs:decimal">266</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиГород</value>
-				<id xsi:type="xs:decimal">267</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиНаселПункт</value>
-				<id xsi:type="xs:decimal">268</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиУлица</value>
-				<id xsi:type="xs:decimal">269</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиДом</value>
-				<id xsi:type="xs:decimal">270</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиКорпус</value>
-				<id xsi:type="xs:decimal">271</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиКварт</value>
-				<id xsi:type="xs:decimal">272</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиКодСтр</value>
-				<id xsi:type="xs:decimal">273</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиАдресТекст</value>
-				<id xsi:type="xs:decimal">274</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдресМестаПогрузкиКодГАР</value>
-				<id xsi:type="xs:decimal">275</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчаст</value>
-				<id xsi:type="xs:decimal">276</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчаст</value>
-				<id xsi:type="xs:decimal">277</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТипУчастникаПогрузки</value>
-				<id xsi:type="xs:decimal">278</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННФЛ_ИдСвТип</value>
-				<id xsi:type="xs:decimal">279</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОГРНИП_ИдСвТип</value>
-				<id xsi:type="xs:decimal">280</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСвед_ИдСвТип</value>
-				<id xsi:type="xs:decimal">281</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИПФамилия</value>
-				<id xsi:type="xs:decimal">282</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИПИмя</value>
-				<id xsi:type="xs:decimal">283</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИПОтчество</value>
-				<id xsi:type="xs:decimal">284</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОрг_СвЮЛУчТрНТип</value>
-				<id xsi:type="xs:decimal">285</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛ_СвЮЛУчТрНТип</value>
-				<id xsi:type="xs:decimal">286</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КПП_СвЮЛУчТрНТип</value>
-				<id xsi:type="xs:decimal">287</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдСтат_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">288</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Страна_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">289</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Наим_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">290</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Идентиф_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">291</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСвед_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">292</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВидДокумента_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">293</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДок_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">294</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДок_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">295</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДок_СвИнНеУчТрНТипСтр</value>
-				<id xsi:type="xs:decimal">296</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННФЛУчаст_СвФЛТрНТип</value>
-				<id xsi:type="xs:decimal">297</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСвед_СвФЛТрНТип</value>
-				<id xsi:type="xs:decimal">298</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФЛУчастФамилия</value>
-				<id xsi:type="xs:decimal">299</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФЛУчастИмя</value>
-				<id xsi:type="xs:decimal">300</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФЛУчастОтчество</value>
-				<id xsi:type="xs:decimal">301</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфУчаст</value>
-				<id xsi:type="xs:decimal">302</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфУчастСЗ</value>
-				<id xsi:type="xs:decimal">303</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочтаУчаст</value>
-				<id xsi:type="xs:decimal">304</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонтУчаст</value>
-				<id xsi:type="xs:decimal">305</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокОснование</value>
-				<id xsi:type="xs:decimal">306</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокОснование</value>
-				<id xsi:type="xs:decimal">307</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокОснование</value>
-				<id xsi:type="xs:decimal">308</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокОснованиеСтр</value>
-				<id xsi:type="xs:decimal">309</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдДокОснование</value>
-				<id xsi:type="xs:decimal">310</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДопСведДокОснование</value>
-				<id xsi:type="xs:decimal">311</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДолжностьПогрузка</value>
-				<id xsi:type="xs:decimal">312</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСведПогрузка</value>
-				<id xsi:type="xs:decimal">313</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснованиеПолномочийПогрузка</value>
-				<id xsi:type="xs:decimal">314</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РаботникПогрузкаФамилия</value>
-				<id xsi:type="xs:decimal">315</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РаботникПогрузкаИмя</value>
-				<id xsi:type="xs:decimal">316</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РаботникПогрузкаОтчество</value>
-				<id xsi:type="xs:decimal">317</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОбНетИнфОВлад</value>
-				<id xsi:type="xs:decimal">318</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчастВладИнфр</value>
-				<id xsi:type="xs:decimal">319</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчастВладИнфр</value>
-				<id xsi:type="xs:decimal">320</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТипУчастникаВладИнфр</value>
-				<id xsi:type="xs:decimal">321</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННФЛВладИнфр_ИдСвТип</value>
-				<id xsi:type="xs:decimal">322</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОГРНИПВладИнфр_ИдСвТип</value>
-				<id xsi:type="xs:decimal">323</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСведВладИнфр_ИдСвТип</value>
-				<id xsi:type="xs:decimal">324</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИПВладИнфрФамилия</value>
-				<id xsi:type="xs:decimal">325</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИПВладИнфрИмя</value>
-				<id xsi:type="xs:decimal">326</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИПВладИнфрОтчество</value>
-				<id xsi:type="xs:decimal">327</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОргВладИнфр_СвЮЛУчТрНТип</value>
-				<id xsi:type="xs:decimal">328</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛВладИнфр_СвЮЛУчТрНТип</value>
-				<id xsi:type="xs:decimal">329</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КППВладИнфр_СвЮЛУчТрНТип</value>
-				<id xsi:type="xs:decimal">330</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдСтатВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">331</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СтранаВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">332</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">333</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдентифВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">334</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСведВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">335</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВидДокументаВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">336</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">337</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокВладИнфр_СвИнНеУчТрНТип</value>
-				<id xsi:type="xs:decimal">338</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокВладИнфр_СвИнНеУчТрНТипСтр</value>
-				<id xsi:type="xs:decimal">339</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННФЛВладИнфрУчаст_СвФЛТрНТип</value>
-				<id xsi:type="xs:decimal">340</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИныеСведВладИнфр_СвФЛТрНТип</value>
-				<id xsi:type="xs:decimal">341</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФЛВладИнфрУчастФамилия</value>
-				<id xsi:type="xs:decimal">342</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФЛВладИнфрУчастИмя</value>
-				<id xsi:type="xs:decimal">343</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФЛВладИнфрУчастОтчество</value>
-				<id xsi:type="xs:decimal">344</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфВладИнфрУчаст</value>
-				<id xsi:type="xs:decimal">345</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ТлфВладИнфрУчастСЗ</value>
-				<id xsi:type="xs:decimal">346</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочтаВладИнфрУчаст</value>
-				<id xsi:type="xs:decimal">347</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонтВладИнфрУчаст</value>
-				<id xsi:type="xs:decimal">348</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснДостОбИнфрТип</value>
-				<id xsi:type="xs:decimal">349</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснДостОбИнфрТекст</value>
-				<id xsi:type="xs:decimal">350</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимДокОснДостОбИнфр</value>
-				<id xsi:type="xs:decimal">351</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДокОснДостОбИнфр</value>
-				<id xsi:type="xs:decimal">352</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокОснДостОбИнфр</value>
-				<id xsi:type="xs:decimal">353</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДокОснДостОбИнфрСтр</value>
-				<id xsi:type="xs:decimal">354</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдДокОснДостОбИнфр</value>
-				<id xsi:type="xs:decimal">355</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДопСведДокОснДостОбИнфр</value>
-				<id xsi:type="xs:decimal">356</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СтатПодп</value>
-				<id xsi:type="xs:decimal">357</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДолжнПодп</value>
-				<id xsi:type="xs:decimal">358</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФамилияПодп</value>
-				<id xsi:type="xs:decimal">359</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИмяПодп</value>
-				<id xsi:type="xs:decimal">360</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОтчествоПодп</value>
-				<id xsi:type="xs:decimal">361</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаДовер</value>
-				<id xsi:type="xs:decimal">362</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерДовер</value>
-				<id xsi:type="xs:decimal">363</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдентДовер</value>
-				<id xsi:type="xs:decimal">364</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СведСистОтм</value>
-				<id xsi:type="xs:decimal">365</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдСистХран</value>
-				<id xsi:type="xs:decimal">366</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Сертификат</value>
-				<id xsi:type="xs:decimal">367</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СтрокаМЧД</value>
-				<id xsi:type="xs:decimal">368</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">GUIDФайла</value>
-				<id xsi:type="xs:decimal">369</id>
-			</item>
+			<lastId xsi:type="xs:decimal">-1</lastId>
 		</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
