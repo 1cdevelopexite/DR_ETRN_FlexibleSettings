@@ -1931,20 +1931,69 @@
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string">Габар</Value>
+							<Value xsi:type="xs:string">Возврат ОпГруз.ЕстьГабариты = Истина;</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">2</lastId>
+								<item>
+									<value xsi:type="xs:string">ВысЗнач</value>
+									<presentation>ОпГруз.ВысЗнач</presentation>
+									<id xsi:type="xs:decimal">0</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">ДлЗнач</value>
+									<presentation>ОпГруз.ДлЗнач</presentation>
+									<id xsi:type="xs:decimal">1</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">ШирЗнач</value>
+									<presentation>ОпГруз.ШирЗнач</presentation>
+									<id xsi:type="xs:decimal">2</id>
+								</item>
+							</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueTable"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+						</row>
+						<row>
+							<Value xsi:type="xs:boolean">true</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">ПлМасГруз</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
-								<lastId xsi:type="xs:decimal">7</lastId>
+								<lastId xsi:type="xs:decimal">13</lastId>
 								<item>
 									<value xsi:type="xs:string">МасНетЗнач</value>
 									<presentation>ОпГруз.МасНетЗнач</presentation>
-									<id xsi:type="xs:decimal">6</id>
+									<id xsi:type="xs:decimal">11</id>
 								</item>
 								<item>
 									<value xsi:type="xs:string">МасБрутЗнач</value>
 									<presentation>ОпГруз.МасБрутЗнач</presentation>
-									<id xsi:type="xs:decimal">7</id>
+									<id xsi:type="xs:decimal">12</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">КолПалл</value>
+									<presentation>ОпГруз.КолПалл</presentation>
+									<id xsi:type="xs:decimal">13</id>
 								</item>
 							</Value>
 							<Value xsi:type="xs:string"/>
@@ -2090,31 +2139,56 @@
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">26</lastId>
+							<lastId xsi:type="xs:decimal">36</lastId>
 							<item>
 								<value xsi:type="xs:string">НаимГруз</value>
 								<presentation>ОпГруз.НаимГруз</presentation>
-								<id xsi:type="xs:decimal">22</id>
+								<id xsi:type="xs:decimal">27</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">КодТовНом</value>
+								<presentation>ОпГруз.КодТовНом</presentation>
+								<id xsi:type="xs:decimal">28</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">СостГруз</value>
 								<presentation>ОпГруз.СостГруз</presentation>
-								<id xsi:type="xs:decimal">23</id>
+								<id xsi:type="xs:decimal">29</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">СпУпак</value>
 								<presentation>ОпГруз.СпУпак</presentation>
-								<id xsi:type="xs:decimal">24</id>
+								<id xsi:type="xs:decimal">30</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">ВидТар</value>
 								<presentation>ОпГруз.ВидТар</presentation>
-								<id xsi:type="xs:decimal">25</id>
+								<id xsi:type="xs:decimal">31</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">Плотн</value>
+								<presentation>ОпГруз.Плотн</presentation>
+								<id xsi:type="xs:decimal">32</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">Объем</value>
+								<presentation>ОпГруз.Объем</presentation>
+								<id xsi:type="xs:decimal">33</id>
 							</item>
 							<item>
 								<value xsi:type="xs:string">КолМестГр</value>
 								<presentation>ОпГруз.КолМестГр</presentation>
-								<id xsi:type="xs:decimal">26</id>
+								<id xsi:type="xs:decimal">34</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">УчГосСист</value>
+								<presentation>ОпГруз.УчГосСист</presentation>
+								<id xsi:type="xs:decimal">35</id>
+							</item>
+							<item>
+								<value xsi:type="xs:string">ДрОГруз</value>
+								<presentation>ОпГруз.ДрОГруз</presentation>
+								<id xsi:type="xs:decimal">36</id>
 							</item>
 						</Value>
 						<Value xsi:type="xs:string">Запрос = Новый Запрос;  
@@ -2131,7 +2205,8 @@
 РезультатЗапроса = Запрос.Выполнить().Выгрузить();  
 
 Результат = Новый ТаблицаЗначений; 
-Результат.Колонки.Добавить("Ссылка", Новый ОписаниеТипов("ДокументСсылка.DR_Документы"));         
+Результат.Колонки.Добавить("Ссылка", Новый ОписаниеТипов("ДокументСсылка.DR_Документы")); 
+Результат.Колонки.Добавить("ЕстьГабариты", Новый ОписаниеТипов("Булево"));         
 
 Для Каждого Строка из РезультатЗапроса Цикл  
 	 
@@ -2165,8 +2240,23 @@
 					НоваяСтрока.СтЦеннГр	= Формат(НоваяСтрока.СтЦеннГр,"ЧРД=.;ЧГ=0");
 					НоваяСтрока.МасНетЗнач	= Формат(НоваяСтрока.МасНетЗнач,"ЧРД=.;ЧГ=0");
 					НоваяСтрока.МасБрутЗнач	= Формат(НоваяСтрока.МасБрутЗнач,"ЧРД=.;ЧГ=0");
-	               	НоваяСтрока.КолМестГр	= Формат(НоваяСтрока.КолМестГр,"ЧРД=.;ЧГ=0"); 
-	               	НоваяСтрока.УчГосСист	= ?(НоваяСтрока.УчГосСист = Истина, "1", "0");  
+	               	НоваяСтрока.КолМестГр	= Формат(НоваяСтрока.КолМестГр,"ЧРД=.;ЧГ=0");
+	               	НоваяСтрока.ВысЗнач		= Формат(НоваяСтрока.ВысЗнач,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.ДлЗнач		= Формат(НоваяСтрока.ДлЗнач,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.ШирЗнач		= Формат(НоваяСтрока.ШирЗнач,"ЧРД=.;ЧГ=0");  
+	               	НоваяСтрока.Объем		= Формат(НоваяСтрока.Объем,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.Плотн		= Формат(НоваяСтрока.Плотн,"ЧРД=.;ЧГ=0"); 
+					НоваяСтрока.КолПалл		= Формат(НоваяСтрока.КолПалл,"ЧРД=.;ЧГ=0"); 
+	               	НоваяСтрока.УчГосСист	= ?(НоваяСтрока.УчГосСист = Истина, "1", "0"); 
+					
+					Если ЗначениеЗаполнено(НоваяСтрока.ВысЗнач) Или ЗначениеЗаполнено(НоваяСтрока.ДлЗнач) Или ЗначениеЗаполнено(НоваяСтрока.ШирЗнач) Тогда
+						НоваяСтрока.ЕстьГабариты = Истина;		
+					КонецЕсли; 
+					
+					Для Каждого СтрокаИд Из НоваяСтрока.ИдНомУчетЕд Цикл
+						НоваяСтрока.ИдНомУчетЕд = СтрокаИд.Значение.ИдНомУчетЕд;
+					КонецЦикла;
+					
 				КонецЦикла;
 				 
 			КонецЕсли;
@@ -2180,122 +2270,18 @@
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
-							<lastId xsi:type="xs:decimal">28</lastId>
+							<lastId xsi:type="xs:decimal">2</lastId>
 							<item>
 								<value xsi:type="xs:string">Ссылка</value>
 								<id xsi:type="xs:decimal">0</id>
 							</item>
 							<item>
-								<value xsi:type="xs:string">НаимГруз</value>
+								<value xsi:type="xs:string">ЕстьГабариты</value>
 								<id xsi:type="xs:decimal">1</id>
 							</item>
 							<item>
-								<value xsi:type="xs:string">КодТовНом</value>
-								<id xsi:type="xs:decimal">2</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СостГруз</value>
-								<id xsi:type="xs:decimal">3</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СпУпак</value>
-								<id xsi:type="xs:decimal">4</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ВидТар</value>
-								<id xsi:type="xs:decimal">5</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">Плотн</value>
-								<id xsi:type="xs:decimal">6</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">Объем</value>
-								<id xsi:type="xs:decimal">7</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КолМестГр</value>
-								<id xsi:type="xs:decimal">8</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">УчГосСист</value>
-								<id xsi:type="xs:decimal">9</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ДрОГруз</value>
-								<id xsi:type="xs:decimal">10</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">Маркировка</value>
-								<id xsi:type="xs:decimal">11</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ВысЗнач</value>
-								<id xsi:type="xs:decimal">12</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ДлЗнач</value>
-								<id xsi:type="xs:decimal">13</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ШирЗнач</value>
-								<id xsi:type="xs:decimal">14</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СвОпГруз</value>
-								<id xsi:type="xs:decimal">15</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СвКонтейн</value>
-								<id xsi:type="xs:decimal">16</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">МасНетЗнач</value>
-								<id xsi:type="xs:decimal">17</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">МасБрутЗнач</value>
-								<id xsi:type="xs:decimal">18</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КолПалл</value>
-								<id xsi:type="xs:decimal">19</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СтЦеннГр</value>
-								<id xsi:type="xs:decimal">20</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">КодОКВ</value>
-								<id xsi:type="xs:decimal">21</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">НаимОКВ</value>
-								<id xsi:type="xs:decimal">22</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">СвГосСист</value>
-								<id xsi:type="xs:decimal">23</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ИдНомУчетЕд</value>
-								<id xsi:type="xs:decimal">24</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">ИнаяИнф</value>
-								<id xsi:type="xs:decimal">25</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">УчетЕд</value>
-								<id xsi:type="xs:decimal">26</id>
-							</item>
-							<item>
-								<value xsi:type="xs:string">НаимГосСист</value>
-								<id xsi:type="xs:decimal">27</id>
-							</item>
-							<item>
 								<value xsi:type="xs:string">НомерПоПорядку</value>
-								<id xsi:type="xs:decimal">28</id>
+								<id xsi:type="xs:decimal">2</id>
 							</item>
 						</Value>
 						<Value xsi:type="ValueListType">
