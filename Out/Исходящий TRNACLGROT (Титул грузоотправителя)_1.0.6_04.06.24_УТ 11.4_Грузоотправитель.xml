@@ -1979,16 +1979,21 @@
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
-								<lastId xsi:type="xs:decimal">7</lastId>
+								<lastId xsi:type="xs:decimal">13</lastId>
 								<item>
 									<value xsi:type="xs:string">МасНетЗнач</value>
 									<presentation>ОпГруз.МасНетЗнач</presentation>
-									<id xsi:type="xs:decimal">6</id>
+									<id xsi:type="xs:decimal">11</id>
 								</item>
 								<item>
 									<value xsi:type="xs:string">МасБрутЗнач</value>
 									<presentation>ОпГруз.МасБрутЗнач</presentation>
-									<id xsi:type="xs:decimal">7</id>
+									<id xsi:type="xs:decimal">12</id>
+								</item>
+								<item>
+									<value xsi:type="xs:string">КолПалл</value>
+									<presentation>ОпГруз.КолПалл</presentation>
+									<id xsi:type="xs:decimal">13</id>
 								</item>
 							</Value>
 							<Value xsi:type="xs:string"/>
@@ -2201,7 +2206,7 @@
 
 Результат = Новый ТаблицаЗначений; 
 Результат.Колонки.Добавить("Ссылка", Новый ОписаниеТипов("ДокументСсылка.DR_Документы")); 
-Результат.Колонки.Добавить("ЕстьГабариты", Новый ОписаниеТипов("Булево"));        
+Результат.Колонки.Добавить("ЕстьГабариты", Новый ОписаниеТипов("Булево"));         
 
 Для Каждого Строка из РезультатЗапроса Цикл  
 	 
